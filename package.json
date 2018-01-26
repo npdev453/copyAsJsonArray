@@ -1,0 +1,10 @@
+{
+  "name": "copyAsJsonArray",
+  "version": "0.0.1",
+  "description": "copyAsJsonArray plugin for A brackets plugin to enable developers to copy the multiple selection as escaped json array elements.",
+  "main": "main.js",
+  "keywords": ["brackets", "plugin", "json", "copyasjson"],
+  "author": "NP <npdev453@lsvr.ru>",
+  "repository": "https://github.com/npdev453/copyAsJsonArray.git",
+  "license": "MIT"
+}
