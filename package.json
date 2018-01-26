@@ -6,5 +6,6 @@
   "keywords": ["brackets", "plugin", "json", "copyasjson"],
   "author": "NP <npdev453@lsvr.ru>",
   "repository": "https://github.com/npdev453/copyAsJsonArray.git",
+  "homepage": "https://github.com/npdev453/copyAsJsonArray",
   "license": "MIT"
 }
