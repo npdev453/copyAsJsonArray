@@ -1,4 +1,4 @@
-#copyAsJsonArray
+# copyAsJsonArray
 
 A brackets plugin to enable developers to copy the multiple selection as escaped json array elements.
 
