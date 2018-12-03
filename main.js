@@ -22,7 +22,7 @@ define((require, exports, module) => {
     }
 
     const copyToClipboard = (text) => {
-        let input = document.createElement('input');
+        let input = document.createElement('input')
         input.style.position = 'fixed';
         input.style.opacity = 0;
         input.value = text;
@@ -37,5 +37,5 @@ define((require, exports, module) => {
 
     KeyBindingManager.removeBinding(KEYBOARD_SHORTCUT);
     KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
-    CommandManager.register("Copy As", COPY_AS, CopyToJsonArray);
+    CommandManager.register("Copy As", COP
 });

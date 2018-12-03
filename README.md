@@ -10,6 +10,7 @@ A brackets plugin to enable developers to copy the multiple selection as escaped
  - Search for `CopyAsJsonArray` in the search box.
  - Select install button on the right
 
+
 ## Usage
 
 ### Using pointer,
