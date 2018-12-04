@@ -1,8 +1,8 @@
 define((require, exports, module) => {
     "use strict";
 
-    let CommandManager = brackets.getModule("command/CommandManager")
-    let KeyBindingManager = brackets.getModule("command/KeyBindingManager")
+    let CommandManager = brackets.getModule("command/CommandManager");
+    let KeyBindingManager = brackets.getModule("command/KeyBindingManager");
 
     let CopyToJsonArray = () => {
 
@@ -11,7 +11,7 @@ define((require, exports, module) => {
         let results = [];
         let warpChar = '"';
 
-        selections.forEach((selection)=>{
+        selections.forEach((selection) => {
             let text = editor.document.getRange(selection.start, selection.end);
             if (!text || !text.length) return;
             text = text.trim();
@@ -19,7 +19,7 @@ define((require, exports, module) => {
         });
 
         copyToClipboard(results.join(', '));
-    }
+    };
 
     const copyToClipboard = (text) => {
         let input = document.createElement('input');
@@ -38,6 +38,6 @@ define((require, exports, module) => {
     KeyBindingManager.removeBinding(KEYBOARD_SHORTCUT);
     KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
     CommandManager.register("Copy As", COPY_AS, CopyToJsonArray);
-    
-    
+
+
 });
