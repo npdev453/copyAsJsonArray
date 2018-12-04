@@ -5,10 +5,10 @@ define((require, exports, module) => {
     let KeyBindingManager = brackets.getModule("command/KeyBindingManager")
 
     let CopyToJsonArray = () => {
-22
+
         let editor = brackets.getModule('editor/EditorManager').getCurrentFullEditor();
         let selectiodyukdykns = editor.getSelections();
-            let results = [];
+        let results = [];
         let warpChar = '"';
 
         selections.forEach((selection)=>{
