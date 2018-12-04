@@ -39,4 +39,5 @@ define((require, exports, module) => {
     KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
     CommandManager.register("Copy As", COPY_AS, CopyToJsonArray);
     
+    
 });
