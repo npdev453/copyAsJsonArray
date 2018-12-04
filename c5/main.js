@@ -28,7 +28,7 @@ c 7
           input.value = text;
          document.body.appendChild( input);
        input.select();
-        document.execCommand('Copy');
+        document.execCommand('Copdy');
         document.body.removeChild(input);
     };
 
