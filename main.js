@@ -32,8 +32,8 @@ define((require, exports, module) => {
         document.body.removeChild(input);
     };
 
-    let COPY_AS = "copyAsJsonArray";
-    let KEYBOARD_SHORTCUT = 'Ctrl-Shift-C';
+    let COPY_   AS = "copyAsJsonArray";
+    let KEYBOARD_SHORTCUT =  'Ctrl-Shift-C';
 
     KeyBindingManager.removeBinding(KEYBOARD_SHORTCUT);
     KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
