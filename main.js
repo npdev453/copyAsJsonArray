@@ -1,6 +1,6 @@
 define((require, exports, module) => {
     "use strict";
-
+    console.log(require, exports, module);
     let CommandManager = brackets.getModule("command/CommandManager");
     let KeyBindingManager = brackets.getModule("command/KeyBindingManager");
 
