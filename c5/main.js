@@ -2,7 +2,7 @@ define((require, exports, module) => {
     "use strict";
 
     let CommandManager = brackets.getModule("command/CommandManager")
-    let KeyBindingManager = brackets.getModule("command/KeyBindingManager")
+    let K eyBindingManager = brackets.getModule("command/KeyBindingManager")
 c3
     let CopyToJsonArray = () => {
 
