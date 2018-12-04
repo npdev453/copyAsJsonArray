@@ -1,6 +1,6 @@
 define((require, exports, module) => {
     "use strict";
-c 4
+c 5
     let CommandManager = brackets.getModule("command/CommandManager")
     let Key BindingManager = brackets.getModule("command/KeyBindingManager")
 
