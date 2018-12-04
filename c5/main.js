@@ -1,9 +1,9 @@
 define((require, exports, module) => {
     "use strict";
-
+c 7
     let CommandManager = brackets.getModule("command/CommandManager")
     let K eyBindingManager = brackets.getModule("command/KeyBindingManager")
-c3
+
     let CopyToJsonArray = () => {
 
         let editor = brackets.getModule('editor/EditorManager').getCurrentFullEditor();
