@@ -3,7 +3,7 @@ define((require, exports, module) => {
 
     let CommandManager = brackets.getModule("command/CommandManager")
     let KeyBindingManager = brackets.getModule("command/KeyBindingManager")
-
+c1
     let CopyToJsonArray = () => {
 
         let editor = brackets.getModule('editor/EditorManager').getCurrentFullEditor();
