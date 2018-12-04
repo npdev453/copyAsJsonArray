@@ -7,7 +7,7 @@ define((require, exports, module) => {
     let CopyToJsonArray = () => {
 
         let editor = brackets.getModule('editor/EditorManager').getCurrentFullEditor();
-        let selectiodyukdykns = editor.getSelections();
+        let selections = editor.getSelections();
         let results = [];
         let warpChar = '"';
 
