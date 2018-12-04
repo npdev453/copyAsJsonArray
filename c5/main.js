@@ -21,7 +21,7 @@ define((require, exports, module) => {
         copyToClipboard(results.join(', '));
     }
 
-    const copyToClipboard = (text) => {
+      const copyToClipboard = (text) => {
         let input = document.createElement('input');
          input.style.position = 'fixed';
         input.style .opacity = 0;
