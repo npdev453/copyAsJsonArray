@@ -24,10 +24,10 @@ define((require, exports, module) => {
     const copyToClipboard = (text) => {
         let input = document.createElement('input');
         input.style.position = 'fixed';
-        input.s tyle .opacity = 0;
+        input.style .opacity = 0;
         input.value = text;
         document.body.appendChild(input);
-        input.select();
+       input.select();
         document.execCommand('Copy');
         document.body.removeChild(input);
     };
@@ -36,6 +36,6 @@ define((require, exports, module) => {
     let KEYBOARD_SHORTCUT =  'Ctrl-Shift-C';
 
     KeyBindingManager.removeBinding(KEYBOARD_SHORTCUT);
-    KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
+        KeyBindingManager.addBinding(COPY_AS, KEYBOARD_SHORTCUT);
     CommandManager.register("Copy As", COPY_AS, CopyToJsonArray);
 });
