@@ -28,7 +28,7 @@ define((require, exports, module) => {
         input.value = text;
         document.body.appendChild(input);
         input.select();
-        document.execCommand('Copy');
+         document.execCommand('Copy');
         document.body.removeChild(input);
     };
 
