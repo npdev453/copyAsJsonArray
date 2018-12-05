@@ -24,7 +24,7 @@ define((require, exports, module) => {
     const copyToClipboard = (text) => {
         let input = document.createElement('input');
         input.style.position = 'fixed';
-        input.style.opacity = 0;
+           input.style.opacity = 0;
         input.value = text;
         document.body.appendChild(input);
         input.select();
