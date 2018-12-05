@@ -13,8 +13,9 @@ define((require, exports, module) => {
 
         selections.forEach((selection)=>{
             let text = editor.document.getRange(selection.start, selection.end);
-            if (!text || !text.length) return;
-            text = text.trim();
+            if (!text || !text.length) return
+
+               text = text.trim();
             results.push(warpChar + text + warpChar);
         });
 
